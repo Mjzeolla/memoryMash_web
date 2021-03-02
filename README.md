@@ -42,6 +42,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+<img src='https://i.imgur.com/FfhGXTa.gif' title='Video' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/TazZ5XO.gif' title='Video' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/5uqoyLt.gif' title='Video' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/qTqoOZr.gif' title='Video' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/GRqa7Ik.gif' title='Video' width='' alt='Video Walkthrough' />
 <img src='https://i.imgur.com/6MB8oG4.gif' title='Different Board Size' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
