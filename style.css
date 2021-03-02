@@ -1,0 +1,156 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: white;
+  color: black; 
+}
+
+h1 {
+  font-style: italic;
+  font-family: verdana, arial, sans-serif; 
+  color: slategrey;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  outline:none;
+}
+
+.spacing{
+    margin-left:107px;
+}
+
+#game_btns > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+#game_btns2 > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn1 {
+    background:#a2f5ec;
+}
+
+
+.btn2 {
+    background:#f38e78;
+}
+
+
+.btn3 {
+    background:#c6a2a6;
+}
+
+
+.btn4 {
+    background:#fbf7eb;
+}
+
+.btn5 {
+    background:#ffb260;
+}
+
+.btn6 {
+    background:#73a2a8;
+}
+
+#btn1:active, #btn1.lit {
+    background:#00ffc3;
+}
+
+#btn2:active, #btn2.lit{
+    background:#fe2700;
+}
+
+
+#btn3:active, #btn3.lit{
+    background:#ff7ec4;
+}
+
+
+#btn4:active, #btn4.lit{
+    background:#abff73;
+}
+
+#btn5:active, #btn5.lit{
+    background:#ffff4f;
+}
+
+#btn6:active, #btn6.lit{
+    background:#01e2ff;
+}
+
+#btn1_:active, #btn1_.lit {
+    background:#00ffc3;
+}
+
+#btn2_:active, #btn2_.lit{
+    background:#fe2700;
+}
+
+
+#btn3_:active, #btn3_.lit{
+    background:#ff7ec4;
+}
+
+
+#btn4_:active, #btn4_.lit{
+    background:#abff73;
+}
+
+#btn5_:active, #btn5_.lit{
+    background:#ffff4f;
+}
+
+#btn6_:active, #btn6_.lit{
+    background:#01e2ff;
+}
+
+
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
+
