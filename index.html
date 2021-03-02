@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Memory Mash</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    
+    <h1>Memory Mash</h1>
+    
+    <p>
+      Welcome to the ULTIMATE Memory test! 
+      <br>Can you remember the squence and win the game?
+    </p>
+    
+    <button
+        id= "btn_start"
+        onclick = "gameStart()">
+      Start Game
+    </button>
+   
+     <button
+        id= "btn_stop"
+        class= "hidden"
+        onclick= "gameEnd()">
+        
+      Stop Game
+    </button>
+    
+    <div class="dropdown">
+      <button 
+          class="dropbtn spacing" > 
+      Select Difficulty
+      </button>
+        <div class="dropdown-content spacing">
+          <a href="#" onclick= "gameDiff('Easy')">Easy(4 Turn)</a>
+          <a href="#" onclick= "gameDiff('Medium')">Medium(6 Turn)</a>
+          <a href="#" onclick= "gameDiff('Hard')">Hard(8 Turn)</a>
+        </div>
+      </div>
+    
+     <div class="dropdown">
+      <button 
+          class="dropbtn" > 
+      Board Size
+      </button>
+        <div class="dropdown-content">
+          <a href="#" onclick= "boardSize('Easy');setBoard(4)">Easy(4 Card)</a>
+          <a href="#" onclick= "boardSize('Hard');setBoard(6)">Hard(6 Card)</a>
+        </div>
+      </div>
+  
+    <p id= "strikes">
+      <p id= "strikes 0" class = "hidden">Strikes Remaining: 0 </p>
+      <p id= "strikes 1">Strikes Remaining: 1 </p>
+      <p id= "strikes 2" class= "hidden">Strikes Remaining: 2 </p>
+      <p id= "strikes 3" class = "hidden">Strikes Remaining: 3 </p>
+    </p>
+    
+    
+   
+    
+    <div id="game_btns">
+      <button id= "btn1" class = "btn1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id= "btn2" class = "btn2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <br id= "break 1">
+      <button id= "btn3" class = "btn3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <br id= "break 2"  class= "hidden">
+      <button id= "btn4" class = "btn4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+      
+    
+    </div>
+  
+  <div id="game_btns2" class = "hidden">
+      <button id= "btn1_" class = "btn1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id= "btn2_" class = "btn2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id= "btn5_" class= "btn5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
+      <br id= "break 2.">
+      <button id= "btn3_" class = "btn3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id= "btn4_" class= "btn4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+      <button id= "btn6_" class= "btn6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()"></button>
+  </div>
+  
+  
+
+    
+  </body>
+</html>
